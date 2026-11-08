@@ -75,7 +75,7 @@ I think NoteScout can be particularly useful for:
 
 ## Screenshots
 
-Screenshots of the application will be added soon.
+![NoteScout Application Screenshot](notescout-screenshot.png)
 
 ## Future Improvements
 

@@ -20,10 +20,6 @@ The goal was to build something practical that could be useful for students, res
 
 Open **[NoteScout Web](https://notescout-web.streamlit.app)** in a browser on a phone, Mac, or Windows computer. Upload the documents you want to search without installing the desktop application.
 
-### Original Work Website
-
-I also made an earlier [NoteScout website prototype](https://notescout-web-harshit.cuddlypanel1.chatgpt.site) in ChatGPT Work. It is a separate site; its original source is not the code in the `web/` folder. The [GitHub-backed Streamlit site](https://notescout-web.streamlit.app) is the one maintained in this repository.
-
 ### NoteScout for Windows
 
 Download **[NoteScout v1.0 for Windows](https://github.com/harshitattri/NoteScout/releases/tag/v1.0)**. Select folders directly from your PC and search supported files locally without uploading them to the website. The desktop app only searches locations you select; it doesn't automatically access your entire computer.

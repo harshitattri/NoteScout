@@ -1,6 +1,8 @@
 # 🔎 NoteScout
 
-A simple desktop application that helps you find words and phrases inside PDFs, PowerPoint presentations, text files, and images.
+A document search tool with two ways to use it: a website for searching uploaded documents from your browser, and a Windows desktop app for searching folders on your computer.
+
+**[Use NoteScout online](https://notescout-web-harshit.cuddlypanel1.chatgpt.site)** · **[Download NoteScout for Windows](https://github.com/harshitattri/NoteScout/releases/tag/v1.0)**
 
 ## About the Project
 
@@ -12,7 +14,17 @@ It also supports OCR (Optical Character Recognition), which makes it possible to
 
 The goal was to build something practical that could be useful for students, researchers, and anyone who regularly works with documents.
 
-## Features
+## Choose Your Version
+
+### NoteScout Web
+
+Open **[NoteScout Web](https://notescout-web-harshit.cuddlypanel1.chatgpt.site)** in a browser on a phone, Mac, or Windows computer. Upload the documents you want to search without installing the desktop application.
+
+### NoteScout for Windows
+
+Download **[NoteScout v1.0 for Windows](https://github.com/harshitattri/NoteScout/releases/tag/v1.0)**. Select folders directly from your PC and search supported files locally without uploading them to the website. The desktop app only searches locations you select; it doesn't automatically access your entire computer.
+
+## Windows App Features
 
 - **Search multiple file formats:** Supports PDF, PPTX, TXT, and image files.
 - **OCR support:** Finds text inside scanned documents and images.
@@ -25,7 +37,7 @@ The goal was to build something practical that could be useful for students, res
 - **File type selection:** Choose which types of files to include in a search.
 - **Clear cache:** Remove stored search data whenever needed.
 
-## How to Use
+## How to Use the Windows App
 
 1. Open NoteScout.
 2. Click **Choose Notes Folder** and select the folder you want to search.
@@ -35,7 +47,7 @@ The goal was to build something practical that could be useful for students, res
 6. Click **Search**.
 7. Browse the results and click a filename to open the original file.
 
-## Technologies Used
+## Windows App Technologies Used
 
 - Python
 - Tkinter for the desktop interface
@@ -56,7 +68,7 @@ You can use the packaged version of NoteScout without installing Python.
 4. Open the extracted folder.
 5. Double-click `NoteScout.exe` to launch the application.
 
-**Note:** The downloadable Windows release will be added soon.
+**Current Windows release:** [NoteScout v1.0](https://github.com/harshitattri/NoteScout/releases/tag/v1.0) — download `NoteScout-Windows-v1.0.zip` under **Assets**. Extract the complete application folder before running `NoteScout.exe`.
 
 ### For Developers
 
@@ -75,7 +87,7 @@ I think NoteScout can be particularly useful for:
 
 ## Screenshots
 
-![NoteScout Application Screenshot](notescout-screenshot.png)
+![NoteScout Windows application screenshot](notescout-screenshot.png.png)
 
 ## Future Improvements
 

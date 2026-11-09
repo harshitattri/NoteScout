@@ -2,7 +2,7 @@
 
 A document search tool with two ways to use it: a website for searching uploaded documents from your browser, and a Windows desktop app for searching folders on your computer.
 
-**[Use NoteScout online](https://notescout-web-harshit.cuddlypanel1.chatgpt.site)** · **[Download NoteScout for Windows](https://github.com/harshitattri/NoteScout/releases/tag/v1.0)**
+**[Use NoteScout online](https://notescout-web.streamlit.app)** · **[Download NoteScout for Windows](https://github.com/harshitattri/NoteScout/releases/tag/v1.0)**
 
 ## About the Project
 
@@ -18,7 +18,11 @@ The goal was to build something practical that could be useful for students, res
 
 ### NoteScout Web
 
-Open **[NoteScout Web](https://notescout-web-harshit.cuddlypanel1.chatgpt.site)** in a browser on a phone, Mac, or Windows computer. Upload the documents you want to search without installing the desktop application.
+Open **[NoteScout Web](https://notescout-web.streamlit.app)** in a browser on a phone, Mac, or Windows computer. Upload the documents you want to search without installing the desktop application.
+
+### Original Work Website
+
+I also made an earlier [NoteScout website prototype](https://notescout-web-harshit.cuddlypanel1.chatgpt.site) in ChatGPT Work. It is a separate site; its original source is not the code in the `web/` folder. The [GitHub-backed Streamlit site](https://notescout-web.streamlit.app) is the one maintained in this repository.
 
 ### NoteScout for Windows
 

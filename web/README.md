@@ -9,6 +9,7 @@ This folder contains a standalone Python/Streamlit version of NoteScout, based o
 - Upload PDFs, PPTX, TXT and common image formats in a browser.
 - Search exact words or phrases, case-insensitively.
 - View highlighted matches with PDF page numbers, PPTX slide numbers and TXT line numbers.
+- Click **View match in document** to display the matching PDF page or image with highlighted text and a zoomed-in view; for PPTX and TXT, open the matching slide's or line's extracted text.
 - OCR scanned PDF pages and images with Tesseract.
 - Use on Windows, macOS, iOS or Android through a modern browser.
 
@@ -37,7 +38,7 @@ This deployment would have a **separate address** from the existing ChatGPT Work
 
 - Up to 12 files, 25 MB per file, 60 MB per search batch.
 - PDFs: up to 80 pages; PowerPoint: up to 150 slides.
-- Up to 100 results per input file.
+- Up to 100 results per input file; the interface shows the first 150 results across the batch.
 - The application does not intentionally write uploaded files to disk or share them externally, but files are still transmitted to the server hosting the Streamlit app. Do not upload sensitive documents to untrusted deployments.
 - Search can be slower when OCR is enabled. OCR quality depends on image clarity and language data.
 - No desktop-style persistent cache in the web version.
@@ -47,3 +48,7 @@ This deployment would have a **separate address** from the existing ChatGPT Work
 The Windows desktop app and release remain unchanged. Download it from https://github.com/harshitattri/NoteScout/releases/tag/v1.0.
 
 Built by Harshit Attri.
+
+## Preview behavior
+
+The web app displays an in-browser location preview rather than opening the original PDF in an external PDF viewer. Visual position highlighting may fail on unclear scans or imperfect OCR; in that case the matching page and search snippet are still shown. PPTX and TXT matches show extracted text at the correct slide or line, not a rendered PowerPoint slide.

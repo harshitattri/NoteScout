@@ -2,8 +2,6 @@
 
 This folder contains a standalone Python/Streamlit version of NoteScout, based on the document-search functionality of the Windows application.
 
-**Provenance:** This is a newly created, independently deployable implementation. It is **not an export of the original ChatGPT Work site source** and is not automatically connected to the already-published website at https://notescout-web-harshit.cuddlypanel1.chatgpt.site.
-
 ## Features
 
 - Upload PDFs, PPTX, TXT and common image formats in a browser.
@@ -32,7 +30,7 @@ From the repository root:
 3. Set the entrypoint to web/app.py.
 4. Deploy. The file web/requirements.txt contains Python dependencies, and the repository-root packages.txt installs the Tesseract OCR engine.
 
-This deployment would have a **separate address** from the existing ChatGPT Work website. Deploying it does not replace that site automatically.
+The current public web app is available at https://notescout-web.streamlit.app.
 
 ## Limits and privacy
 
